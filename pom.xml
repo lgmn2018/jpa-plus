@@ -11,7 +11,7 @@
     <groupId>com.yc</groupId>
     <artifactId>jpa-plus</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.1</version>
     <name>jpa-plus</name>
     <description>JPA Plus</description>
     <properties>
@@ -26,6 +26,7 @@
     <modules>
         <module>core</module>
         <module>starter</module>
+        <module>example</module>
     </modules>
     <dependencyManagement>
         <dependencies>
@@ -79,11 +80,6 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>3.8.1</version>
-            </dependency>
-            <dependency>
-                <groupId>com.cy.jpa-plus</groupId>
-                <artifactId>core</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
