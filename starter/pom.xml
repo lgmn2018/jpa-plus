@@ -5,11 +5,10 @@
     <parent>
         <groupId>com.yc</groupId>
         <artifactId>jpa-plus</artifactId>
-        <version>0.1</version>
+        <version>${revision}</version>
     </parent>
     <groupId>com.cy.jpa-plus</groupId>
     <artifactId>starter</artifactId>
-    <version>0.1</version>
     <name>starter</name>
     <description>JPA Plus Starter</description>
     <properties>

@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.yc.jpa-plus</groupId>
     <artifactId>example</artifactId>
-    <version>0.1</version>
+    <version>0.1.1</version>
     <name>example</name>
     <description>JPA Plus Example</description>
     <properties>
@@ -47,25 +47,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>com.yc.jpa-plus</groupId>-->
-<!--            <artifactId>core</artifactId>-->
-<!--            <version>0.1</version>-->
-<!--        </dependency>-->
         <dependency>
             <groupId>com.yc.jpa-plus</groupId>
             <artifactId>core</artifactId>
-            <version>0.1</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 
-    <repositories>
-        <repository>
-            <id>yc</id>
-            <name>yc</name>
-            <url>https://github.com/lgmn2018/jpa-plus/raw/maven2</url>
-        </repository>
-    </repositories>
     <build>
         <plugins>
             <plugin>

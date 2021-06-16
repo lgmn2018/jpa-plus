@@ -60,25 +60,7 @@ public @interface Condition {
     LikeInLogic likeInLogic() default LikeInLogic.AND;
 
     /**
-     * 当except=BETWEEN_AND时有效
-     * 且需要成对出现
-     * 需要提供属性名称
+     * 设置对应实体属性名称
      */
     String field() default "";
-
-    /**
-     * 当except=BETWEEN_AND时有效
-     * 把属性定义为最小值
-     * @return
-     */
-    @Deprecated
-    boolean isMin() default false;
-
-    /**
-     * 当except=BETWEEN_AND时有效
-     * 把属性定义为最大值
-     * @return
-     */
-    @Deprecated
-    boolean isMax() default false;
 }
