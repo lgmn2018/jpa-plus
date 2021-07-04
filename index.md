@@ -26,9 +26,9 @@ JPA-Plus是对Spring-JPA进行封装，在不影响Spring-JPA原有功能的基�
 
 ```xml
 <dependency>
-    <groupId>com.yc.jpa-plus</groupId>
+    <groupId>io.github.lgmn2018.jpa-plus</groupId>
     <artifactId>core</artifactId>
-    <version>0.1.1</version>
+    <version>0.1.4</version>
 </dependency>
 ```
 
